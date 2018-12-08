@@ -1,0 +1,16 @@
+﻿<Window x:Name="valeurPerso" x:Class="ProjetStage2018.ValeursPersos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetStage2018"
+        mc:Ignorable="d"
+        Title="Valeur person." Height="129.333" Width="150" Icon="pack://siteoforigin:,,,/Resources/HouseIcon.png" ResizeMode="NoResize">
+    <Grid>
+        <Image x:Name="imgQuestion" HorizontalAlignment="Left" Height="24" Margin="6,12,0,0" VerticalAlignment="Top" Width="23" Source="QuestionDialog.png" Stretch="Fill"/>
+        <TextBox x:Name="txtValeur" HorizontalAlignment="Left" Height="23" Margin="36,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67" TextChanged="txtValeur_TextChanged"/>
+        <Label x:Name="labelQuestion" Content="Entrez une valeur:" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnValider" Content="Valider" HorizontalAlignment="Left" Margin="32,68,0,0" VerticalAlignment="Top" Width="75" Click="btnValider_Click" IsDefault="True"/>
+
+    </Grid>
+</Window>
